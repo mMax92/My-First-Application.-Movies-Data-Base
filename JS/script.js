@@ -10,7 +10,7 @@ function start() {
     }
 }
 
-// start();
+start();
 
 const personalMovieDB = {
     count: numberOfFilms,
@@ -37,7 +37,7 @@ function rememberMyFilms() {
     } while (i < 2);
 }
 
-// rememberMyFilms();
+rememberMyFilms();
 
 function detectPersonalLevel() {
     if (personalMovieDB.count < 10) {
@@ -51,7 +51,7 @@ function detectPersonalLevel() {
     }
 }
 
-// detectPersonalLevel();
+detectPersonalLevel();
 
 function showMyDB(hidden) {
     if (!hidden) {
